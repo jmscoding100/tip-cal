@@ -8,14 +8,14 @@
     <title>Tip Calculator</title>
 </head>
 <body>
-    <header id="header">
+    <header class="header" id="header">
         <div class="container">
             <h1 class="heading text-center">Calculator</h1>
             <p class="intro-text text-center">by Joshua McGee</p>
         </div>
     </header>
 
-    <main id="main">
+    <main class="main" id="main">
         <section class="section menu-section" id="menuSection">
             <div class="container">
                 <h2 class="menu-heading text-capitalize">our menu</h2>
@@ -50,42 +50,44 @@
                     <div class="col-sm-6">
                         <div class="ticket-div">
                             <h2 class="text-capitalize text-center">your receipt:</h2>
-                            <div class="col-9">
-                                <table class="receipts" id="receiptTable">
-                                    <tbody id="receipt">
-                                        <tr>
-                                            <td class="table-headers text-capitalize text-center">
-                                                item
-                                            </td>
-                                            <td class="table-headers text-capitalize text-center">
-                                                quantity
-                                            </td>
-                                            <td class="table-headers text-capitalize text-center">
-                                                price
-                                            </td>
-                                            <td class="table-headers text-capitalize text-center">
-                                                item total
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-3">
-                                <p class="text-end">
-                                    Subtotal $<span id="theSubtotal">0.00</span>
-                                </p>
-
-                                <p class="text-end">
-                                    Tax $<span id="tax">0.00</span>
-                                </p>
-
-                                <p class="text-end tip-total" id="tipTotal">Tip $
-                                    <sapn id="yourTip">0.00</sapn>
-                                </p>
-
-                                <p class="text-end total-text">
-                                    Total bill $<span id="total">0.00</span>
-                                </p>
+                            <div class="row">
+                                <div class="col-9">
+                                    <table class="receipts" id="receiptTable">
+                                        <tbody id="receipt">
+                                            <tr>
+                                                <td class="table-headers text-capitalize text-center">
+                                                    item
+                                                </td>
+                                                <td class="table-headers text-capitalize text-center">
+                                                    quantity
+                                                </td>
+                                                <td class="table-headers text-capitalize text-center">
+                                                    price
+                                                </td>
+                                                <td class="table-headers text-capitalize text-center">
+                                                    item total
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-end">
+                                        Subtotal $<span id="theSubtotal">0.00</span>
+                                    </p>
+    
+                                    <p class="text-end">
+                                        Tax $<span id="tax">0.00</span>
+                                    </p>
+    
+                                    <p class="text-end tip-total" id="tipTotal">Tip $
+                                        <sapn id="yourTip">0.00</sapn>
+                                    </p>
+    
+                                    <p class="text-end total-text">
+                                        Total bill $<span id="total">0.00</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

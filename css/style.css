@@ -61,6 +61,16 @@ h2{
     border-radius: 5px;
 }
 
+
+
+
+#confirmBtn{
+    background-color: green;
+    color: white;
+}
+
+
+
 #reciptTable{
     padding: 10px 0;
     width: 100%;
