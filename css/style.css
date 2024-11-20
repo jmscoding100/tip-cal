@@ -48,6 +48,11 @@ h2{
     padding: 40px 0;
 }
 
+
+.menu-image{
+    max-height: 200px;
+}
+
 .section{
     padding: 60px 0;
 }

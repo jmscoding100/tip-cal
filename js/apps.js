@@ -202,8 +202,13 @@ let menuItems = [
         price: .96,
         qty: 0
     }
-
 ]
+
+
+
+
+
+
 
 //confirm button
 
@@ -306,6 +311,7 @@ menuItems.forEach(item => {
         </div>
     </footer>
     `
+
 
     column.appendChild(card)
 
